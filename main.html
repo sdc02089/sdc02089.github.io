@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Homepage, Main</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="intro-body">
+    <div id="intro-section">
+        <div class="intro-comment"></div>
+        <a href="main_trans1.html">
+            <img class="intro-img" src="assets/img/passport.jpg">
+        </a>
+        <div class="intro-ans"></div>
+    </div>
+    <!-- Use of TypeIt.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
+    <script>
+        new TypeIt(".intro-comment", {
+            speed: 55
+        })
+            .type("Hi!")
+            .pause(1000)
+            .type(" Would you like to check-in?")
+            .go();
+    </script>
+    <script>
+        new TypeIt(".intro-ans", {
+            speed: 100
+        })
+            .type(" ")
+            .pause(3500)
+            .type("YES!")
+            .go();
+    </script>
+</body>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</html>

@@ -1,0 +1,335 @@
+/* This part is for main.html */
+.intro-body {
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+
+#intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+.intro-comment {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: 'Bitter', sans-serif;
+}
+
+.intro-img {
+    width: 300px;
+    height: auto;
+    margin-top: 70px;
+    transition-property: opacity;
+    transition-duration: 0.8s;
+}
+
+.intro-ans {
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    font-family: 'Bitter', sans-serif;
+}
+
+.intro-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+/* This part is for main_trans1.html */
+.trans1-body {
+    animation: fadeInAnimationOne ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimationOne {
+    0% {
+        opacity: 0;
+        background-color: white;
+    }
+    100% {
+        opacity: 1;
+        background-color: #3eadcf;
+    }
+}
+
+#trans1-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.trans1-comment {
+    color: white;
+    margin: 10px;
+    font-size: 80px;
+    font-family: 'Baloo Tammudu 2', sans-serif;
+}
+
+.clickme {
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.clickme:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.click-comment {
+    color: white;
+    font-size: 15px;
+    margin-top: 8px;
+
+}
+
+/* This section is for main_trans2.html */
+.trans2-body {
+    background-color: #f9ea8f;
+    background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
+}
+
+#trans2-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+.trans2-header {
+    font-size: 75px;
+    margin-bottom: 60px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+}
+
+.trans2-subheader {
+    font-size: 45px;
+    margin-bottom: 100px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+}
+
+.countries {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.country {
+    margin-left: 50px;
+    width: 240px;
+    height: 150px;
+}
+
+.country:hover {
+    animation: waveFlag 1s ease-in-out infinite alternate;
+}
+
+@keyframes waveFlag {
+    0% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0.8;
+        transform: rotate(-20deg);
+    }
+    50% {
+        opacity: 1
+    }
+    75% {
+        opacity: 0.8;
+        transform: rotate(20deg);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* This section is for all three country html files */
+#header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coun-name {
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Gotu', sans-serif;
+    font-weight: bold;
+}
+
+.hello {
+    margin-right: 30px;
+    font-size: 40px;
+    color: #8A8A8A;
+    font-family: 'Gotu', sans-serif;
+}
+
+#journey-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.place-hor {
+    width: 300px;
+    height: 200px;
+}
+
+.place-ver {
+    width: 200px;
+    height: 300px;
+}
+
+#me-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#me-portion {
+    margin-right: 30px;
+}
+
+.return-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.comment {
+    font-size: 15px;
+    margin-left: 30px;
+    color: #8A8A8A;
+}
+
+.return-icon {
+    width: 40px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.country-page1 {
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+    display: flex;
+    flex-direction: column;
+}
+
+.country-page2 {
+    background-color: #aff6cf;
+    background-image: linear-gradient(315deg, #aff6cf 0%, #9f98e8 74%);
+    display: flex;
+    flex-direction: column;
+}
+
+.country-page3 {
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Below are from Hover.css v2 */
+/* Grow Shadow */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  width: 360px;
+  height: 200px;
+  margin-left: 30px;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* SHADOW/GLOW TRANSITIONS */
+/* Glow */
+.hvr-glow-hor {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  width: 300px;
+  height: 200px;
+}
+.hvr-glow-hor:hover, .hvr-glow-hor:focus, .hvr-glow-hor:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.hvr-glow-ver {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  width: 200px;
+  height: 300px;
+}
+.hvr-glow-ver:hover, .hvr-glow-ver:focus, .hvr-glow-ver:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Grow Rotate */
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  height: 200px;
+  width: 150px;
+  margin-left: 71px;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}
